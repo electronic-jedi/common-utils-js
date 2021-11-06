@@ -1,0 +1,22 @@
+{
+    "name": "common-utils",
+    "version": "1.0.0",
+    "description": "A bundle of commonly needed formating utilities",
+    "main": "index.js",
+    "scripts": {
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dalitsosakala/common-utils.git"
+    },
+    "keywords": [
+        "formating",
+        "common"
+    ],
+    "author": "Dalitso Sakala",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/dalitsosakala/common-utils/issues"
+    },
+    "homepage": "https://github.com/dalitsosakala/common-utils#readme"
+}
