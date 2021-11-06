@@ -1,9 +1,10 @@
 {
     "name": "common-utils",
-    "version": "2.0.3+1",
+    "version": "2.0.4+1",
     "description": "A bundle of commonly needed formating utilities",
-    "main": "index.js",
+    "main": "./lib/index.js",
     "scripts": {
+        "postinstall": "tsc"
     },
     "repository": {
         "type": "git",
