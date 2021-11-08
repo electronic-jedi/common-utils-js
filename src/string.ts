@@ -1,4 +1,12 @@
+/**
+ * Copyright (c) 2021 Jedi Hero https://www.github.com/jedi-hero
+ * All rights reserved.
+ */
 
+
+/**
+ * Represents a format type
+ */
 type t_format = 'camelCase' | 'locale'
 
 /**

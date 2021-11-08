@@ -1,6 +1,6 @@
 {
     "name": "common-utils",
-    "version": "2.1.7",
+    "version": "2.1.8",
     "description": "A bundle of commonly needed formating utilities",
     "scripts": {
         "postinstall": "tsc"
