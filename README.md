@@ -1,3 +1,3 @@
 # common-utils
 
-A bundle of commonly needed formating utilities
+A bundle of commonly needed javascript formating utilities
