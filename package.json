@@ -1,22 +1,24 @@
 {
     "name": "common-utils",
-    "version": "2.1.8",
-    "description": "A bundle of commonly needed formating utilities",
+    "version": "2.1.11",
+    "description": "A bundle of commonly needed formating utilities for javascript/typescript projects",
     "scripts": {
         "postinstall": "tsc"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/dalitsosakala/common-utils.git"
+        "url": "git+https://github.com/jedi-hero/common-utils-js.git"
     },
     "keywords": [
         "formating",
-        "common"
+	"utilities",
+        "common",
+	"tools"
     ],
-    "author": "Dalitso Sakala",
+    "author": "Jedi Hero",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/dalitsosakala/common-utils/issues"
+        "url": "https://github.com/jedi-hero/common-utils-js/issues"
     },
-    "homepage": "https://github.com/dalitsosakala/common-utils#readme"
+    "homepage": "https://github.com/jedi-hero/common-utils-js#readme"
 }
