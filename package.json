@@ -1,9 +1,13 @@
 {
     "name": "common-utils",
-    "version": "2.1.11",
+    "version": "2.1.12",
     "description": "A bundle of commonly needed formating utilities for javascript/typescript projects",
+    "dependencies": {
+        "typescript": "~4.3.2"
+    },
     "scripts": {
-        "postinstall": "tsc"
+        "tsc": "tsc",
+        "postinstall": "npm run tsc"
     },
     "repository": {
         "type": "git",
