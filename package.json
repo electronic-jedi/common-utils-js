@@ -1,6 +1,6 @@
 {
     "name": "common-utils",
-    "version": "2.1.15",
+    "version": "2.1.16",
     "description": "A bundle of commonly needed formating utilities for javascript/typescript projects",
     "repository": {
         "type": "git",
@@ -9,7 +9,7 @@
     "scripts": {
         "postinstall:win": ".\\node_modules\\.bin\\tsc",
         "postinstall:unix": "./node_modules/.bin/tsc",
-        "postinstall": ".\\node_modules\\.bin\\tsc"
+        "postinstall": "./node_modules/.bin/tsc"
     },
     "keywords": [
         "formating",
