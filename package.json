@@ -2,27 +2,27 @@
     "name": "common-utils",
     "version": "2.1.12",
     "description": "A bundle of commonly needed formating utilities for javascript/typescript projects",
-    "dependencies": {
-        "typescript": "~4.3.2"
-    },
-    "scripts": {
-        "tsc": "tsc",
-        "postinstall": "npm run tsc"
-    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/jedi-hero/common-utils-js.git"
     },
+    "scripts": {
+        "postinstall:win": ".\\node_modules\\.bin\\tsc",
+        "postinstall": "./node_modules/.bin/tsc"
+    },
     "keywords": [
         "formating",
-	"utilities",
+        "utilities",
         "common",
-	"tools"
+        "tools"
     ],
     "author": "Jedi Hero",
-    "license": "ISC",
+    "license": "MIT",
     "bugs": {
         "url": "https://github.com/jedi-hero/common-utils-js/issues"
     },
-    "homepage": "https://github.com/jedi-hero/common-utils-js#readme"
+    "homepage": "https://github.com/jedi-hero/common-utils-js#readme",
+    "dependencies": {
+        "typescript": "^4.4.4"
+    }
 }
