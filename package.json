@@ -9,7 +9,7 @@
     "scripts": {
         "postinstall:win": ".\\node_modules\\.bin\\tsc",
         "postinstall:unix": "./node_modules/.bin/tsc",
-        "postinstall": "./node_modules/.bin/tsc"
+        "postinstall": "tsc"
     },
     "keywords": [
         "formating",
