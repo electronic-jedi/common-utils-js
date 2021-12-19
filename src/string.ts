@@ -7,10 +7,11 @@
 /**
  * Represents a format type
  */
-type t_format = 'camelCase' | 'locale'
+type t_format = 'camelCase' | 'locale' | 'dashCase'
 
 /**
- * Attempts to format from one typing format to another
+ * Attempts to format from one typing format to another.
+ * You can only convert to/from 'locale' to/from any other format.
  * @param arg 
  * @param options 
  * @returns 
@@ -21,6 +22,15 @@ export function convertByFormat(arg: string, options: { toFormat: t_format, from
         retval=arg.split('')
             .map(v => {
                 if (/[A-Z]/.test(v)) return ` ${v.toLowerCase()}`
+                else return v
+            })
+            .join('')
+
+    }
+    else if (options.fromFormat == 'dashCase' && options.toFormat=='locale') {
+        retval=arg.split('')
+            .map(v => {
+                if (/\-/.test(v)) return ' '
                 else return v
             })
             .join('')
