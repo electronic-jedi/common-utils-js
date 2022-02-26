@@ -1,6 +1,6 @@
 {
     "name": "common-utils",
-    "version": "2.2.18",
+    "version": "2.2.19",
     "description": "A bundle of commonly needed formating utilities for javascript/typescript projects",
     "repository": {
         "type": "git",
