@@ -4,7 +4,7 @@
     "description": "A bundle of commonly needed formating utilities for javascript/typescript projects",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/jedi-hero/common-utils-js.git"
+        "url": "git+https://github.com/electronic-jedi/common-utils-js.git"
     },
     "scripts": {
         "postinstall:win": ".\\node_modules\\.bin\\tsc",
